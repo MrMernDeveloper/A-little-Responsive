@@ -61,6 +61,11 @@ body {
 
 }
 /* second section  */
+.second-section{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
 .match-sidebar{
     Width:312px; 
     Height:312px;
@@ -88,4 +93,49 @@ body {
 .white a{
     text-decoration: none;
     color: black;
+}
+.all-matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:24px;
+    grid-row-gap:24px;
+
+}
+.full-match{
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgba(22, 22, 22, 0.7);;
+}
+.full-match .match {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.full-match .transfer{
+    margin-top: 10px;
+    width: 100px;
+    height: 32px;
+}
+.match-margin{
+    margin-top: 15px;
+}
+.icon-section .span-icon{
+    padding-left:10px;   
+}
+footer{
+    height: 300px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #161616;;
+}
+.goal{
+    padding: 60px 0px;
+}
+.footer-info{
+    padding:50px 0px ;
+}
+footer li{
+    margin-top: 50px;
+    display: inline;
+    justify-content: space-between;
+    padding:0px 15px
+    
 }
