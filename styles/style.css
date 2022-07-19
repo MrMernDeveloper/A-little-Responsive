@@ -62,7 +62,7 @@ body {
 }
 /* second section  */
 .second-section{
-    margin: 100px 50px;
+    margin: 100px 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -71,6 +71,7 @@ body {
     Height:312px;
     background-color: #161616;
     border-radius: 10px;
+    margin-right: 20px;
 }
 
 .match-sidebar button{
