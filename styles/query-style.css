@@ -1,78 +1,84 @@
-
 /* media query  */
 @media only screen and (max-width:688px) {
-  
-    .top-section {
-        display: grid;
-        grid-template-columns: repeat(1fr);
-        width: 100%;
-        height: auto;
-        margin-left: 0px;  
-        
-    }
-   
- 
-    .first-title .main-title{
-        width: 100%;
-        height: auto;
-        font-Weight: 700;
-        font-size: 40px;    
-    }
-        .first-title .top-paragrapg {
-          font-size: 16px;  
-        }
-  
-    .top-payer-icon img{
-        width: 70%;
-        height: auto;
-        margin-left:90px;
-    }
-    .second-section{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        width: 100%;
-        
-    }
-       
-  .match-sidebar{
+
+  .top-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    overflow-x: hidden;
+
+  }
+
+  .first-title .main-title {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-Weight: 700;
+    font-size: 40px;
+    overflow-x: hidden;
+
+  }
+
+  .first-title .top-paragrapg {
+    font-size: 16px;
+   text-align: center;
+  }
+
+  .top-payer-icon img {
+    width: 70%;
+    height: auto;
+    margin-left: 90px;
+  }
+
+  .second-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+
+  }
+
+  .match-sidebar {
     background-color: white;
     width: 100%;
-     
+
   }
-  .all-matches{
+
+  .all-matches {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
-  .all-matches .full-match{
+
+  .all-matches .full-match {
     width: 312px;
-    
-  }
-  footer{
-    width:100% ;
-    height: auto;
+
   }
 
-  footer li{
+  footer {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  footer li {
     display: list-item;
     text-align: center;
     margin-bottom: 0px;
-    
-    
+
+
   }
+
   /* second page query  */
 
-  .multiple-match{
+  .multiple-match {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 70%;
     height: auto;
-    margin-left: -4%;
-    
-  }  
+  }
 }
 
 
 /* media query for tablet  */
-
-

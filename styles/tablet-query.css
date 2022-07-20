@@ -14,10 +14,59 @@
 
     .first-title .main-title {
         font-Weight: 700;
-        font-size: 38px;
+        font-size: 40px;
     }
 
-    .first-title .top-paragrapg{
-        font-size: 12px;
+    .first-title .top-paragrapg {
+        font-size: 16px;
+    }
+
+    .top-payer-icon img {
+        width: 100%;
+    }
+
+    .match-sidebar {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        
+        
+
+    }
+    .match-sidebar button {
+        width: 200px;
+        height: 64px;
+        
+        
+
+        }
+
+    .second-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .all-matches {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        width: 100%;
+        justify-content: space-around;
+    }
+    .view-all-button{
+        display: block;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-info{
+        width: 100%;
+        
+             
+    }
+
+    .footer-info li{
+        display: flexbox;
     }
 }
