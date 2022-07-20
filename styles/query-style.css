@@ -7,19 +7,20 @@
         grid-template-columns: repeat(1fr);
         width: 100%;
         height: auto;
-        margin-left: -3%;
+        margin-left: -2%;
         
         
     }
     .first-title .main-title{
         width: 100%;
-        height: auto;
-        
+        height: auto;  
         
     }
+  
     .top-payer-icon img{
         width: 70%;
         height: auto;
+        margin-left:60px;
     }
     .second-section{
         display: grid;
