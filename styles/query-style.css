@@ -10,24 +10,16 @@
         margin-left: 0px;  
         
     }
-    .first-title{
-      justify-items: center;
-      padding-left: 0px;
-      
-    }
-
+   
+ 
     .first-title .main-title{
         width: 100%;
         height: auto;
         font-Weight: 700;
-        font-size: 40px;
-        text-align: center;
-        padding-right: 5%;
-        
+        font-size: 40px;    
     }
         .first-title .top-paragrapg {
-          font-size: 16px;
-          text
+          font-size: 16px;  
         }
   
     .top-payer-icon img{
