@@ -11,12 +11,20 @@
     .first-title .main-title{
         width: 100%;
         height: auto;
+        text-overflow: ellipsis;
         
     }
     .top-payer-icon img{
         width: 100%;
         height: auto;
     }
+  .match-sidebar{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: -100px;
+  }
+
 
     
 }
