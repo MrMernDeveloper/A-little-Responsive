@@ -144,6 +144,11 @@ body {
 .icon-section .span-icon {
     padding-left: 10px;
 }
+.all-matches .view-all-button{
+    text-align: center;
+
+
+}
 
 /* footer section  */
 footer {
