@@ -1,0 +1,22 @@
+
+/* media query  */
+@media only screen and (max-width:688px) {
+    .top-section {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        width: 100%;
+        height: auto;
+        
+    }
+    .first-title .main-title{
+        width: 100%;
+        height: auto;
+        
+    }
+    .top-payer-icon img{
+        width: 100%;
+        height: auto;
+    }
+
+    
+}
