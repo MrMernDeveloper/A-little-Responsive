@@ -14,23 +14,25 @@ body {
 .top-section {
     width: 1200px;
     height: 646px;
-    margin: 50px 100px 50px 80px;
+    margin: 30px 100px 0px 80px;
     display: flex;
     justify-content: space-evenly;
     background-color: #161616;
     border-radius: 30px;
+    border: 2px solid red;
 }
 
 .first-title {
     Width: 480px;
     Height: 450px;
     margin-top: 111px;
-    margin-left: 100px;
+    padding-left: 100px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     align-items: center;
     gap: 20px;
     color: #FFFFFF;
+    
 
 
 }
@@ -55,9 +57,10 @@ body {
 }
 
 .top-payer-icon img {
-    margin: 33px 79px 0px 0px;
-    Width: 550px;
+    margin: 33px 0px 0px 0px;
+    Width: 580px;
     Height: 613px;
+    
 
 }
 
@@ -66,6 +69,7 @@ body {
     margin: 100px 30px;
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -141,7 +145,7 @@ body {
 }
 
 footer {
-    height: 340px;
+    height: 350px;
     color: #FFFFFF;
     text-align: center;
     background-color: #161616;
@@ -150,6 +154,10 @@ footer {
 
 .goal {
     padding: 60px 0px;
+}
+footer hr {
+    margin: 0 100px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-info {
