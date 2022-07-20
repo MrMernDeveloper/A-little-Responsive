@@ -144,10 +144,10 @@ body {
 .icon-section .span-icon {
     padding-left: 10px;
 }
-.all-matches .view-all-button{
+.view-all-button{
+    display: none;
     text-align: center;
-
-
+    margin:10px 0 80px 0 ;
 }
 
 /* footer section  */

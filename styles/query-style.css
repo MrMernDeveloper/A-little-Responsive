@@ -7,16 +7,28 @@
         grid-template-columns: repeat(1fr);
         width: 100%;
         height: auto;
-        margin-left: 0px;
-        
-        
+        margin-left: 0px;  
         
     }
+    .first-title{
+      justify-items: center;
+      padding-left: 0px;
+      
+    }
+
     .first-title .main-title{
         width: 100%;
-        height: auto;  
+        height: auto;
+        font-Weight: 700;
+        font-size: 40px;
+        text-align: center;
+        padding-right: 5%;
         
     }
+        .first-title .top-paragrapg {
+          font-size: 16px;
+          text
+        }
   
     .top-payer-icon img{
         width: 70%;
@@ -65,7 +77,10 @@
     height: auto;
     margin-left: -4%;
     
-  }
-
-    
+  }  
 }
+
+
+/* media query for tablet  */
+
+
