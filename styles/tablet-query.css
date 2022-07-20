@@ -1,9 +1,9 @@
 /* tablet query  */
 @media only screen and (min-width:688px) and (max-width:992px) {
-   
+
     .top-section {
         width: 100%;
-        height: auto;   
+        height: auto;
         overflow-x: hidden;
         margin-left: 0;
     }
@@ -31,17 +31,18 @@
         background-color: white;
         width: 100%;
         display: flex;
-        
-        
+
+
 
     }
+
     .match-sidebar button {
         width: 200px;
         height: 64px;
-        
-        
 
-        }
+
+
+    }
 
     .second-section {
         display: grid;
@@ -51,25 +52,39 @@
 
     .all-matches {
         display: grid;
-        grid-template-columns:repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
         justify-content: space-around;
         overflow-x: hidden;
     }
-    .view-all-button{
+
+    .multiple-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .multiple-match .match-body {
+        width: 300px;
+    }
+
+    .view-all-button {
         display: block;
     }
-    footer{
+
+    footer {
         width: 100%;
         height: auto;
     }
-    .footer-info{
+
+    .footer-info {
         width: 100%;
-        
-             
+
+
     }
-    
-    .footer-info ul{
+
+    .footer-info ul {
         display: flexbox;
         flex-wrap: wrap;
     }
