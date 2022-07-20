@@ -1,9 +1,11 @@
 /* tablet query  */
 @media only screen and (min-width:688px) and (max-width:992px) {
+   
     .top-section {
         width: 100%;
-        height: auto;
-        margin-left: 0px;
+        height: auto;   
+        overflow-x: hidden;
+        margin-left: 0;
     }
 
     .first-title .main-title {
@@ -52,6 +54,7 @@
         grid-template-columns:repeat(2, 1fr);
         width: 100%;
         justify-content: space-around;
+        overflow-x: hidden;
     }
     .view-all-button{
         display: block;
@@ -65,8 +68,9 @@
         
              
     }
-
-    .footer-info li{
+    
+    .footer-info ul{
         display: flexbox;
+        flex-wrap: wrap;
     }
 }
