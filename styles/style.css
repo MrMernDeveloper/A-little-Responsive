@@ -31,7 +31,7 @@ body {
     align-items: center;
     gap: 20px;
     color: #FFFFFF;
-    
+
 
 }
 
@@ -60,21 +60,24 @@ body {
     Height: 613px;
 
 }
+
 /* second section  */
-.second-section{
+.second-section {
     margin: 100px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
 }
-.match-sidebar{
-    Width:312px; 
-    Height:312px;
+
+.match-sidebar {
+    Width: 312px;
+    Height: 312px;
     background-color: #161616;
     border-radius: 10px;
     margin-right: 20px;
 }
 
-.match-sidebar button{
+.match-sidebar button {
     width: 252px;
     height: 64px;
     margin: 20px;
@@ -83,60 +86,132 @@ body {
     border-radius: 10px;
     font-weight: 500;
 }
-.match-sidebar .white{
+
+.match-sidebar .white {
     background-color: #FFFFFF;
 
 }
-.match-sidebar .Red{
+
+.match-sidebar #Red {
     background-color: #DD0000;
+    color: white;
 
 }
-.white a{
+
+.match-sidebar a {
     text-decoration: none;
     color: black;
 }
-.all-matches{
+
+.match-sidebar .Blong-ancor {
+    text-decoration: none;
+    color: white;
+}
+
+.all-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap:24px;
-    grid-row-gap:24px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
 
 }
-.full-match{
+
+.full-match {
     border-radius: 5px;
-    box-shadow: 0px 0px 1px rgba(22, 22, 22, 0.7);;
+    box-shadow: 0px 0px 1px rgba(22, 22, 22, 0.7);
 }
+
 .full-match .match {
     padding-left: 10px;
     margin-bottom: 20px;
 }
-.full-match .transfer{
+
+.full-match .transfer {
     margin-top: 10px;
     width: 100px;
     height: 32px;
 }
-.match-margin{
+
+.match-margin {
     margin-top: 15px;
 }
-.icon-section .span-icon{
-    padding-left:10px;   
+
+.icon-section .span-icon {
+    padding-left: 10px;
 }
-footer{
-    height: 300px;
+
+footer {
+    height: 340px;
     color: #FFFFFF;
     text-align: center;
-    background-color: #161616;;
+    background-color: #161616;
+    ;
 }
-.goal{
+
+.goal {
     padding: 60px 0px;
 }
-.footer-info{
-    padding:50px 0px ;
+
+.footer-info {
+    padding: 50px 0px;
 }
-footer li{
+
+footer li {
     margin-top: 50px;
     display: inline;
     justify-content: space-between;
-    padding:0px 15px
-    
+    padding: 0px 15px
 }
+footer .fa-brands{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+  
+}
+footer .icon{
+    margin: 10px 0;
+}
+
+/* second-page  */
+.second-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 7%;
+}
+
+.multiple-match {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 5%;
+}
+
+.match-body {
+    text-align: center;
+    height: 250px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    box-shadow: 0px 0px 1px rgba(22, 22, 22, 0.7);
+    border-radius: 5px;
+
+}
+
+.single-match {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    padding-top: 30px;
+
+}
+
+.title-vs {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* media query section  */
