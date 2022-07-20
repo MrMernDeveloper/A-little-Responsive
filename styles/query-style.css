@@ -7,7 +7,7 @@
         grid-template-columns: repeat(1fr);
         width: 100%;
         height: auto;
-        margin-left: -2%;
+        
         
         
     }
@@ -20,7 +20,7 @@
     .top-payer-icon img{
         width: 70%;
         height: auto;
-        margin-left:60px;
+        margin-left:90px;
     }
     .second-section{
         display: grid;
