@@ -12,7 +12,7 @@ body {
 
 /* starting code from top  */
 .top-section {
-    width: 1200px;
+    width: 1300px;
     height: 646px;
     margin: 30px 50px 30px 50px;
     display: flex;
@@ -28,7 +28,7 @@ body {
     margin-top: 111px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
+    grid-column-gap: 20px;
     color: #FFFFFF;
     
 
@@ -42,6 +42,7 @@ body {
 }
 
 .top-paragrapg {
+    padding-top: 20px;
     font-weight: 400;
     font-size: 14px;
 }
@@ -57,8 +58,9 @@ body {
 
 .top-payer-icon img {
     margin: 33px 0px 0px 0px;
-    Width: 580px;
+    Width: 480px;
     Height: 613px;
+    
     
 
 }

@@ -5,7 +5,8 @@
         width: 100%;
         height: auto;
         overflow-x: hidden;
-        margin-left: 0;
+        margin-left: ;
+        overflow-x: hidden;
     }
 
     .first-title .main-title {
@@ -78,14 +79,18 @@
         height: auto;
     }
 
-    .footer-info {
-        width: 100%;
-
-
+   
+    
+    footer .footer-info{
+        width: 80%;
+        margin: auto;
+        
+       
     }
-
-    .footer-info ul {
-        display: flexbox;
+    .footer-info li{
+        display: inline-flex;
         flex-wrap: wrap;
+        
     }
+
 }
